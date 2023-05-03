@@ -18,7 +18,7 @@ from cryptography.hazmat.backends.openssl.backend import Backend
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 
-class EncodeDecode:
+class Encryptor:
     """
     Class to encode/decode text using user's password.
     """
